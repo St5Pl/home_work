@@ -5,15 +5,15 @@ function MyTime(){
       console.log(this.date.getHours() + ':' + this.date.getMinutes() + ':' + this.date.getSeconds())
     }
   
-    this.addSec = function(sec: number){
+    this.addSec = function(sec){
       this.date.setSeconds(this.date.getSeconds() + sec);
     }
   
-    this.addMin = function(min: number){
+    this.addMin = function(min){
       this.date.setMinutes(this.date.getMinutes() + min);
     }
   
-    this.addHour = function(hour: number){
+    this.addHour = function(hour){
       this.date.setHours(this.date.getHours() + hour);
     }
   }
